@@ -70,7 +70,7 @@ php artisan serve
 App will be running at: http://localhost:8000
 
 
-
+### Default Accounts (Seeded)
 
 | Role          | username                                           | Password |
 | ------------- | ----------------------------------------------- | -------- |
