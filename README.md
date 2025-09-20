@@ -75,7 +75,7 @@ App will be running at: http://localhost:8000
 | Role          | username                                           | Password |
 | ------------- | ----------------------------------------------- | -------- |
 | Manager       | manager                                         | 123456  |
-| Web Developer | develope                                        | 123456 |
+| Web Developer | developer                                        | 123456 |
 | Web Designer  | designer                                        | 123456 |
 
 
