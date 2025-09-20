@@ -29,32 +29,43 @@ git clone https://github.com/yourusername/your-repo.git
 cd your-repo
 ```
 ## 2. Install dependencies
+```bash
 composer install
 npm install
+```
 
 ## 3. Environment setup
+```bash
 cp .env.example .env
 php artisan key:generate
 
+```
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=backend_test
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
 
 ## 4. Run migrations & seeders
+```bash
 php artisan migrate --seed
 
+```
 
 ## 5. Build frontend (Vue + Vite)
+```bash
 npm run dev   # for development
 npm run build # for production
+```
 
 ## 6. Start Laravel server
-npm run dev   # for development
-npm run build # for production
+```bash
+php artisan serve
+```
 
 App will be running at: http://localhost:8000
 
@@ -65,7 +76,7 @@ App will be running at: http://localhost:8000
 | ------------- | ----------------------------------------------- | -------- |
 | Manager       | manager                                         | 123456  |
 | Web Developer | develope                                        | 123456 |
-| Web Designer  | designer@test.com                               | 123456 |
+| Web Designer  | designer                                        | 123456 |
 
 
 
