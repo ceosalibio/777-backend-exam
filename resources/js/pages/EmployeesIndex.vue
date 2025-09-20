@@ -33,7 +33,7 @@
                 <td>{{ employee.last_name }}</td>
                 <td>{{ employee.position }}</td>
                 <td>{{ new Date(employee.created_at).toLocaleDateString() }}</td>
-                <td>
+                <td class="d-flex pa-2 ga-2">
                     <v-btn small color="warning" @click="edit(employee)">Edit</v-btn>
                     <v-btn small color="red" @click="remove(employee)">Delete</v-btn>
                 </td>
